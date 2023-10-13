@@ -3,66 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>SBMC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>SBMC - Capoeira</title>
 </head>
 <body>
-    <header class="header-bg">
-        <div class="header">
-            <picture>
-                <a href="./"><img src="./img/SBMC-logo.svg" alt="logo-sbmc" width="" height=""></a>
-            </picture>
-            <nav aria-label="primaria">
-                <ul class="header-menu">
-                    <1i><a href="./sobre">Sobre</a></1i>
-                    <1i><a href="./galeria">Galeria</a></1i>
-                    <1i><a href="./apoiase">Apoia-se</a></1i>
-                    <1i><a href="./localizacao">Localização</a></1i>
-                    <1i><a href="./contato">Contato</a></1i>
+    <header id="header-bg">
+        <div id="header">
+            <a  href=""><img id="logo" src="img/SBMC-logo.svg" alt=""></a>
+            <nav id="nav">
+                
+                <button id="btn-mobile">
+                    menu<span id="hamburguer"></span>
+                </button>
+
+                <ul id="menu">
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Localização</a></li>
+                    <li><a href="">Contato</a></li>
                 </ul>
             </nav>
         </div>
+        <script src="js/menu.js"></script>     
     </header>
     <main>
-        <picture>
-            <img src="./img/banner-maior.png" alt="Mestres do grupo" width="" height="" class="banner-maior">
+        <picture class="banner-home">
+            <img src="./img/banner-maior.png" alt="" >
         </picture>
-        <div class="hero-bg">
-            <h1>São Bento Me Chama: Cultivando a Riqueza Cultural da Capoeira.</h1>
-            <p>A <strong>"São Bento Me Chama"</strong> é um grupo de capoeira dedicado à <strong>preservação</strong> da <strong>tradição</strong> e <strong>cultura</strong> da capoeira. </p>
+        <div class="bg-escuro">
+            <section>
+                <picture>
+                    <img src="img/" alt="logo-completo">
+                </picture>
+                <h1>São Bento Me Chama: Cultivando a Riqueza Cultural da Capoeira.</h1>
+                    <p>A <strong>"São Bento Me Chama"</strong> é um grupo de capoeira dedicado à <strong>preservação</strong> da cultura da capoeira. </p>
+                    <a href="./" class="btn">Contato</a>
+            </section>
         </div>
     </main>
-    <article>
-        <h2>Guarulhos</h2>
-        <p>Rua biririm 1777 - Paraiso, Guarulhos - sp</p>
-        <a href="./">Local</a>
-        mapa
-    </article>
-    <article class="vantagens-bg">
-        <h2>VANTAGENS CAPOEIRA</h2>
-        <ul>
-            <li>
-                <img src="" alt="Defesa pessoal-logo"><h3>Defesa Pessoal</h3>
-                <p>Além de sua rica herança cultural, a capoeira também possui uma dimensão prática como forma de defesa pessoal.</p>
-            </li>
-            <li>
-                <img src="" alt="Agilidade"><h3>Agilidade</h3>
-                <p>A capoeira é uma expressão de agilidade inigualável.</p>
-            </li>
-            <li>
-                <img src="" alt="Defesa pessoal-logo"><h3>Diversidade</h3>
-                <p>A capoeira abraça a diversidade de forma magnífica, unindo ritmo, movimento e cultura.</p>
-            </li>
-        </ul>
-    </article>
-    <section class="section-bg">
-        <h2>Oque fazemos ?</h2>
-        <p>A capoeira desempenha um papel vital no Brasil e na vida das pessoas, unindo corpo e mente através de movimentos e ritmos. E o Grupo SBMC desempenham um papel crucial ao proporcionar um ambiente acolhedor para a pratica dela.</p>
-    </section>
-    <footer>
-        <picture>
-            <img src="" alt="logo">
-        </picture>
-    </footer>
+    
 </body>
 </html>
