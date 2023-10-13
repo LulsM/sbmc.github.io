@@ -1,5 +1,5 @@
 #header-bg {
-    background-color: var(--cor-3);
+    background-color: var(--cor-5);
 }
 
 #header {
@@ -8,9 +8,10 @@
     height: 70px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
+    padding: 20px;
 }
 
 #menu {
@@ -67,7 +68,7 @@
 
     #btn-mobile {
         display: flex;
-        color: wheat;
+        color: var(--cor-0);
         padding: .5rem 1rem; 
         font-size: 1rem;
         border: none;
@@ -88,9 +89,18 @@
         height: 2px;
         background: currentColor;
         margin-top: 5px;
+        position: relative;
+        transition: .6s;
     }
     #nav.active #hamburguer {
         border-top-color: transparent;
+    }
+    #nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburguer::after{
+        transform: rotate(-135deg);
+        top: -7px;
         
     }
 }

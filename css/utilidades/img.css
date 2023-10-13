@@ -1,4 +1,12 @@
 
+#logotipo {
+    height: 32px;
+}
+.logo-home {
+    margin: 20px;
+    width: 480px;
+    height: auto;
+}
 .banner-home img {
     width: 100%;
     height: auto;

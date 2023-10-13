@@ -1,0 +1,22 @@
+.btn {
+    display: block;
+    background-color: var(--cor-p2);
+    border-radius: 4px;
+    width: 240px;
+    margin: auto;
+    align-self: center;
+}
+
+.btn a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 20px;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+}
+
+a:visited {
+    color: var(--cor-p3);
+}
+
