@@ -1,6 +1,7 @@
 @import "./reset.css/reset.css";
 @import "./utilidades/componentes.css";
 
+@import "./global/body.css";
 @import "./home/header.css";
 @import "./home/introducao.css";
 @import "./utilidades/img.css";

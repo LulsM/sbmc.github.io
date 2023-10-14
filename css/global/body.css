@@ -1,4 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: var(--cor-5);
+    height: 1200px;
 }
 
+main {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.home-container {
+    
+    margin: auto;
+}

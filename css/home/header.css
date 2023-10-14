@@ -4,7 +4,6 @@
 
 #header {
     max-width: 1200px;
-    box-sizing: border-box;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -34,12 +33,20 @@
     display: none;
 }
 
-@media (max-width: 600px) {
+.banner-home  {
+    max-width: 100%;
+}
+.banner-home img {
+    max-width: 100%;
+}
+
+@media (max-width: 700px) {
     #menu li:hover {
         background-color: var(--cor-5);
     }
     
     #menu {
+        margin-top: 20px;
         display: block;
         position: absolute;
         width: 100%;
