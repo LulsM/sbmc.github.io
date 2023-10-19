@@ -10,3 +10,10 @@ main {
     margin: auto;
 }
 
+@media (max-width:980px) {
+    main {
+        max-width: auto;
+    }
+}
+
+
