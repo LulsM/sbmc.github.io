@@ -1,0 +1,10 @@
+.local-bg {
+    background-color: var(--cor-0);
+}
+.local-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    width: auto;
+    background-color: white;
+}

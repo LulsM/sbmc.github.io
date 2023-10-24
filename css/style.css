@@ -2,8 +2,10 @@
 @import "./utilidades/componentes.css";
 
 @import "./global/body.css";
-@import "./home/header.css";
+@import "./global/header.css";
 @import "./home/introducao.css";
+@import "home/local.css";
 @import "./utilidades/img.css";
 @import "./utilidades/cores.css";
 
+@import "./global/footer.css";
