@@ -1,0 +1,77 @@
+
+.citacao-container {
+    background-color: var(--cor-p2);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+    margin: auto;  
+}
+
+.citacao-container img  {
+    display: block;
+    height: 480px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.citacao-conteudo {
+    padding: 20px 40px ;
+    background: url("../detalhes-svg/detalhe-folha-2-branco.svg") no-repeat 10px  ;
+    
+}
+
+.citacao-conteudo p {
+    max-width: 32ch;
+    font-family: serif;
+    color: var(--cor-3);
+    font-size: 2.4rem;
+    font-style: italic;
+    font-weight: 900;
+    position: relative;
+}
+
+.citacao-conteudo p::before
+.citacao-conteudo p::after {
+    font-size: 5rem;
+    color: var(--cor-p1);
+    position: absolute;
+}
+
+
+.citacao-conteudo p::before {
+    content: "“";
+    left: -50px;
+    right: 20px;
+}
+.citacao-conteudo p::after {
+    content: "”";
+}
+
+.citacao-autor  {
+    position: absolute;
+    font-size: 1.4rem;
+    color: var(--cor-0);
+}
+
+@media (max-width: 1400px) {
+    .citacao-container img{
+        height: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    .citacao-container {
+        grid-template-columns: 1fr;
+        
+    }
+    .citacao-container img {
+        max-height: 240px;
+    }
+    .citacao-conteudo {
+        padding: 40px 20px;
+        margin: auto;
+    }
+
+}
